@@ -89,7 +89,6 @@ print(type(tuple1))
 
 social_security_number = (123444, 4444445, 5676789)
 # Examples:
-
 # my_list = ['apple', 'banana', 'cherry']
 # print(my_list[0])         # apple
 # print(my_list[1:])        # ['banana', 'cherry']
@@ -108,13 +107,20 @@ social_security_number = (123444, 4444445, 5676789)
 # Practice Problems:
 
 # Create a list with 5 of your favorite foods.
-
+my_list = ["burger", "taco", "tamales", "pasta", "pozole"]
+print(my_list)
 # Print the second and last item.
-
+print(my_list[3])
+print(my_list[4])
 # Add a new item using .append().
 
+my_list.append("stew")
+print(my_list)
 # Remove the first item using .pop(0).
-
+my_list.pop(0)
+print(my_list)
 # Reverse your list using .reverse().
 
+my_list.reverse()
+print(my_list)
 # Create a list of 3 lists (matrix), and access the middle element.
